@@ -2,7 +2,8 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <div id="app">
-    <router-view></router-view> <!-- 添加这一行 -->
+    <router-link to="/my-page">My Page</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
